@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent_of_code_2025"
+version = "0.1.0"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scikit-learn",
+    "pillow",
+    "opencv-python",
+    "ipykernel",
+    "tqdm"
+]
+
+[tool.setuptools]
+packages = ["utils"]

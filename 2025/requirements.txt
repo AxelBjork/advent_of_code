@@ -1,0 +1,8 @@
+numpy
+pandas
+Pillow
+scikit-learn
+ipykernel
+tqdm
+opencv-python
+ipywidgets
